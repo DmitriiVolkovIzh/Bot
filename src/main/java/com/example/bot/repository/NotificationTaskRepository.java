@@ -10,5 +10,5 @@ public interface NotificationTaskRepository extends JpaRepository<NotificationTa
 
     List<NotificationTask> findAllByNotificationDateTime(LocalDateTime localDateTime);
 
-
+//
 }

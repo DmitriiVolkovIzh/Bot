@@ -21,7 +21,7 @@ public class NotificationTaskTimer {
         this.notificationTaskRepository = notificationTaskRepository;
         this.telegramBot = telegramBot;
     }
-
+    //
     @Scheduled(fixedDelay = 1, timeUnit = TimeUnit.MINUTES)
     public void task() {
         notificationTaskRepository.findAllByNotificationDateTime(LocalDateTime.now().truncatedTo(
