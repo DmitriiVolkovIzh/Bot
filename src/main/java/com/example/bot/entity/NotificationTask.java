@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "notification_task")
 public class NotificationTask {
-
+    //
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
